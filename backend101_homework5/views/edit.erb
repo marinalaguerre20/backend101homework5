@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<style>
+  form{ text-align: center;
+  }</style>
+<link rel="stylesheet" type="text/css" href="css/personal.css">
+<body>
+  <div id="header">
+    <div  class="topleft">
+      <ul>
+        <li><a href="/">Home</a></li>
+
+        <li>
+          <a href="#">Products</a>
+
+            <ul>
+
+                <li> <a href="">Toys</a></li>
+                  <li> <a href="">Furniture</a></li>
+                  <li> <a href="">Clothes</a></li>
+                  <li> <a href="">Assecories</a></li> 
+
+              </ul>
+            </li>
+
+        <li>
+          <a href="#">Sales</a>
+
+                <ul> 
+
+                  <li> <a href="">Toys</a></li>
+                  <li> <a href="">Furniture</a></li>
+                  <li> <a href="">Clothes</a></li>
+                  <li> <a href="">Assecories</a></li> 
+                  <li> <a href="">All Sales</a></li>
+
+                    </ul>
+        </li>
+
+      </ul>
+    </div>
+    <div class="topright">
+        <ul >
+          <li><a href="signup">Sign Up</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Basket</a></li>
+          <li><a href="">Contact Us</a></li
+        </ul>
+      </div>
+  </div>
+
+
+  <div class="nameofsite">
+    <h1>Baby Cycle</h1>
+  </div>
+
+
+<div class="form"> <form method="post" action="/signup"><fieldset>
+<div class="close">Close</div>
+            <p><b>Please edit your information</b></p>
+      <p style="color:red">All fields required.</p>
+      <label>First Name:<br />
+      <input type="text" name="first_name" size="25"/></label><br />
+      <label>Last Name:<br />
+      <input type="text" name="last_name" size="25"/></label><br />
+      <label>E-mail/User Name:<br />
+      <input type="text" name="email" size="54"/></label><br />
+      <label>Full Address:<br />
+      <input type="text" name="address" size="54"/></label><br /> <br />
+        <button class="register">Register</button>
+        
+    </fieldset>
+    </form>
+</div>  
+    <script>
+        $(document).ready(function(){
+          $('li').hover(function(){
+            $(this).find('ul>li').stop().fadeToggle(300);
+          });
+        });
+    </script>
+</body>
+</html>

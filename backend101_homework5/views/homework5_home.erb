@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/personal.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</head>
+<body>
+	<div id="header">
+		<div  class="topleft">
+			<ul>
+				<li><a href="/">Home</a></li>
+
+				<li>
+					<a href="#">Products</a>
+
+				    <ul>
+
+			        	<li> <a href="">Toys</a></li>
+			            <li> <a href="">Furniture</a></li>
+			            <li> <a href="">Clothes</a></li>
+			            <li> <a href="">Assecories</a></li> 
+
+			        </ul>
+		        </li>
+
+				<li>
+					<a href="#">Sales</a>
+
+		            <ul> 
+
+			            <li> <a href="">Toys</a></li>
+			            <li> <a href="">Furniture</a></li>
+			            <li> <a href="">Clothes</a></li>
+			            <li> <a href="">Assecories</a></li> 
+			            <li> <a href="">All Sales</a></li>
+
+                    </ul>
+				</li>
+
+			</ul>
+		</div>
+		<div class="topright">
+				<ul >
+					<li><a href="signup">Sign Up</a></li>
+					<li><a href="#">Sign In</a></li>
+					<li><a href="#">Basket</a></li>
+					<li><a href="">Contact Us</a></li
+				</ul>
+			</div>
+	</div>
+
+
+	<div class="nameofsite">
+		<h1>Baby Cycle</h1>
+	</div>
+
+	<div class="mainpic">
+
+	   <img src="images/babyclothes.jpg" height="400" width="900">
+	</div>
+	<div class="bottomcolor">
+		<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+	</div>
+
+
+
+
+    <script>
+        $(document).ready(function(){
+          $('li').hover(function(){
+            $(this).find('ul>li').stop().fadeToggle(300);
+          });
+        });
+    </script>
+
+
+
+</body>
+</html>
